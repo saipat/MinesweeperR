@@ -8,4 +8,18 @@ export class Board {
     }
 }
 
+export class Tile {
+    constructor(board, pos){
+        this.board = board;
+        this.pos = pos;
+        this.explored = false;
+        this.bombed = false;
+        this.flagged = false;
+    }
+
+    adjacentBombCount(){
+        
+    }
+}
+
 // export default Minesweeper;

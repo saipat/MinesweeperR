@@ -32,4 +32,6 @@ class Board extends React.Component{
     
 }
 
+// window.renderTiles = renderTiles;
+
 export default Board;

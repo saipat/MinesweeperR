@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import Game from './components/game';
 
 document.addEventListener("DOMContentLoaded", () => {
-    const main = document.getElementById('main');
+    const root = document.getElementById('root');
     ReactDOM.render(
         <Game />,
-        main
+        root
     );
 });
